@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #101012;
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  color: #f7f7f7;
+}
+
+.app-container h1 {
+  margin: 0 0 20px;
+  font-size: 2rem;
+}
+
+.state-message {
+  padding: 12px;
+  border-radius: 8px;
+  background: #222;
+}
+
+.state-message.error {
+  background: #4e1d1d;
+  color: #ffd2d2;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.media-card {
+  background: #1a1a1a;
+  border: 1px solid #2d2d2d;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.media-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.media-card p {
+  color: #d8d8d8;
+  margin: 0 0 12px;
+}
+
+.media-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.media-card li {
+  margin-bottom: 6px;
+}
+
+.media-card a {
+  color: #8ec5ff;
+}

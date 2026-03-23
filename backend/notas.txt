@@ -1,0 +1,7 @@
+1. npm init -y
+2. creación de carpetas
+3. npm i express - Express.js sirve para crear servidores web y APIs en Node.js de forma sencilla y organizada.
+4. npm i mongoose - Sirve para conectarnos a mongoDB
+5. npm i dotenv - para variables de entorno
+6. npm i cors - Cross-Origin Resource Sharing - indicamos a que puerto darle acceso
+7. npm i -D nodemon - instalar en entorno de desarrollo - sirve para iniciar el servidor en cada cambio
