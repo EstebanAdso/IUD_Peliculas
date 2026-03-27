@@ -1,4 +1,4 @@
-const Genero = require("../models/genero");
+const Genero = require("../models/Genero");
 
 const getGeneros = async (req, res) => {
     try {

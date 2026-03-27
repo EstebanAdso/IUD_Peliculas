@@ -1,5 +1,5 @@
 const Director = require("../models/Director");
-const genero = require("../models/genero");
+const genero = require("../models/Genero");
 const Productora = require("../models/Productora");
 const Tipo = require("../models/Tipo");
 
